@@ -3,7 +3,7 @@
 </p>
 
 # Covid-19 Positive Cases and California
-Insight into which age group tests positive more often for Covid-19 in California. Is there a significant difference between the positive cases for each age group in the United States and the positive cases for each age group in California?
+Insight into which age group tests positive more often for Covid-19 in California. Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
 ## Belinda Nguyen
 [Linkedin](https://www.linkedin.com/in/bnguyen05/) * [Github](https://github.com/nguyenbel) * [Slides](https://github.com/nguyenbel/)
@@ -11,13 +11,16 @@ Insight into which age group tests positive more often for Covid-19 in Californi
 ## Background and Motivation
 Due to the Coranvirus (Covid-19), 2020 has been a strange year for everyone. Covid-19 is a new illness that can affect one's respiratory system and has similar symptoms to the flu. Many health experts advised people to wear a mask when they went out and to wash their hands for 20 seconds or to sanitize their hands frequently. The United States of America has had a hard time handling the pandemic due to poor leadership and the state governors are told that they are responsible to mitigate the spread of Covd-19 with little to no help from the Federal Government. On March 16, 2020, stay-at-home orders were put into place in California to slow the spread of Covid-19. California was often used as one of the examples of what a state should do to handle the pandemic.
 
-This study analyzes the positive cases of Covid-19 in California between age groups. Which age group has the most daily new cases in California? What proportion of people in each age group tests positive with respect to the total population of their age group? Is there a significant difference between the positive cases for each age group in the United States and the positive cases for each age group in California?
+This study analyzes the positive cases of Covid-19 in California between age groups. Which age group has the most daily new cases in California? What proportion of people in each age group tests positive with respect to the total population of their age group? Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
 ## Data
+### Description: 
+Californiia Department of Public Health compiled a [data set](https://data.ca.gov/dataset/covid-19-cases) of Covid-19 cases in California and broke down the data into several categories: total cases, age demographic, sex demographics, and ethnicity demographics. 
 
-## EDA
+## Exploratory Data Analysis:
 
-## Hypothesis Testing
+## Chi-Square Goodness of Fit Test:
+Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
 ## Conclusions
 
