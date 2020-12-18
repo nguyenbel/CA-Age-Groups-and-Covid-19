@@ -1,4 +1,7 @@
-![https://www.mercurynews.com/wp-content/uploads/2020/06/EBT-L-FRIPROTEST-0606-7.jpg]
+<p align=“center”>
+  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/people_wearing_masks.jpg">
+</p>
+
 # Covid-19 Positive Cases and California
 Insight into which age group tests positive more often for Covid-19 in California. Is there a significant difference between the positive cases for each age group in the United States and the positive cases for each age group in California?
 
