@@ -26,6 +26,7 @@ To answer this question, I ran a Chi-Square Goodness of Fit Test. Using the most
 <p align=“center”>
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/observed_vs_expected.png">
 </p>
+After running the Chi-Square Goodness of Fit Test, I found that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
 
 ## Conclusions
 
