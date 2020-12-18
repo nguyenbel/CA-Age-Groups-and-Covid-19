@@ -15,12 +15,17 @@ This study analyzes the positive cases of Covid-19 in California between age gro
 
 ## Data
 ### Description: 
-Californiia Department of Public Health compiled a [data set](https://data.ca.gov/dataset/covid-19-cases) of Covid-19 cases in California and broke down the data into several categories: total cases, age demographic, sex demographics, and ethnicity demographics. 
+Californiia Department of Public Health compiled a [data set](https://data.ca.gov/dataset/covid-19-cases) of Covid-19 cases in California and broke down the data into several categories: total cases, age demographic, sex demographics, and ethnicity demographics. I took the data for the total cases and the age demographic, then found data on the population of Californiia based on the age groups, and, finally, demographic trends of Covid-19 in the United States from the Centers for Disease Control and Prevention.
 
 ## Exploratory Data Analysis:
 
 ## Chi-Square Goodness of Fit Test:
-Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
+*Question*: Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
+
+To answer this question, I ran a Chi-Square Goodness of Fit Test. Using the most recent observed positive cases from California and multiplying the percentages of positive cases for each age group in the United States and the total positive cases in California, I created the following table:
+<p align=“center”>
+  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/observed_vs_expected.png">
+</p>
 
 ## Conclusions
 
