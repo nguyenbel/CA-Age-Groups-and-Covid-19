@@ -1,5 +1,5 @@
 # Covid-19 Positive Cases and California
-Can Covid-19 cases in California 
+Insight into which age group tests positive more often for Covid-19 in California. Is there a significant difference between the positive cases for each age group in the United States and the positive cases for each age group in California?
 
 ## Background and Motivation
 
