@@ -60,7 +60,7 @@ Although the numbers may be skewed, one fact still remained true: Californians f
 | 2020-04-02    | 18-49        | 0.00030             | ***0.495364***      |
 | 2020-04-02    | 50-64        | ***0.00040***       | 0.268874            |
 | 2020-04-02    | 65 and Older | ***0.00040***       | 0.218543            |
-| 2020-04-02    | Missing      | N/A.                | 0.005298            |
+| 2020-04-02    | Missing      | N/A                 | 0.005298            |
 
 
 | Date          | Age Group    | (Positive Cases) / <br /> (Age Group Population) | (New Cases by Age) / <br /> (Total New Cases) |
