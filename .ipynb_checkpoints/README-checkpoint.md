@@ -3,7 +3,7 @@
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/people_wearing_masks.jpg">
 </p>
 
-#### Insight into which age group tests positive more often for Covid-19 in California. Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
+### Insight into which age group tests positive more often for Covid-19 in California. Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
 ## Belinda Nguyen
 [Linkedin](https://www.linkedin.com/in/bnguyen05/) * [Github](https://github.com/nguyenbel) * [Slides](https://github.com/nguyenbel/)
