@@ -91,7 +91,7 @@ _Result_: After running the Chi-Square Goodness of Fit Test, I found that the po
 <p align=“center”>
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/slow_spread.jpeg">
 </p>
-Although efforts to mitigate the spread of Covid-19 have had some effect on slowing down the spread of Covid-19 have been somewhat successful (e.g. stay-at-home orders, slowly reopening the public and closing it down when things got worse), there still needs to be some effort in enforcing the stay-at-home orders and something in affect to help those who were impacted by Covid-19 financially (e.g. laid off, hours cut, etc.), especially people of the ages 18-49. Additionally, there was no indication that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
+Although efforts to mitigate the spread of Covid-19 have had some effect on slowing down the spread of Covid-19 have been somewhat successful (e.g. stay-at-home orders, slowly reopening the public and closing it down when things got worse), there still needs to be some effort in enforcing the stay-at-home orders and something in affect to help those who were impacted by Covid-19 financially (e.g. laid off, hours cut, etc.), especially people of the ages 18-49. Additionally, there was no indication that the positive cases for each group in California is a sample of the positive cases for each age group in the United States.
 
 ## Future Analysis
 - Figuring out where the missing age group data went (is it equally distributed?)
