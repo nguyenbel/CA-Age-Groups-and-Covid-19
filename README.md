@@ -95,6 +95,7 @@ Although efforts to mitigate the spread of Covid-19 have had some effect on slow
 
 ## Future Analysis
 - Figuring out where the missing age group data went (is it equally distributed?)
+- Zoom in on months to see which months had large spikes/dips
 
 ## References
 California Department of Public Health. 2020. California Total Covid-19 Cases. Retrieved from <https://data.ca.gov/dataset/covid-19-cases/resource/926fd08f-cc91-4828-af38-bd45de97f8c3>
