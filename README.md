@@ -57,28 +57,33 @@ Although the numbers may be skewed, one fact still remained true: Californians f
 | Date          | Age Group    | (Positive Cases) / <br /> (Age Group Population) | (New Cases by Age) / <br /> (Total New Cases) |
 | ------------- |--------------| :------------------:| :-------------------:|
 | 2020-04-02    | 0-17         | 0.00001             | 0.011258            |
-| 2020-04-02    | 18-49        | 0.00030             | **0.495364**        |
-| 2020-04-02    | 50-64        | **0.00040**         | 0.268874            |
-| 2020-04-02    | 65 and Older | **0.00040**         | 0.218543            |
+| 2020-04-02    | 18-49        | 0.00030             | ***0.495364***      |
+| 2020-04-02    | 50-64        | ***0.00040***       | 0.268874            |
+| 2020-04-02    | 65 and Older | ***0.00040***       | 0.218543            |
 | 2020-04-02    | Missing      | N/A.                | 0.005298            |
 
 
 | Date          | Age Group    | (Positive Cases) / <br /> (Age Group Population) | (New Cases by Age) / <br /> (Total New Cases) |
 | ------------- |--------------| :------------------:| :-------------------:|
 | 2020-12-16    | 0-17         | 0.02305             | 0.127304            |
-| 2020-12-16    | 18-49        | **0.05999**         | **0.573052**        |
+| 2020-12-16    | 18-49        | ***0.05999***       | ***0.573052***      |
 | 2020-12-16    | 50-64        | 0.04566             | 0.195821            |
 | 2020-12-16    | 65 and Older | 0.03090             | 0.103458            |
-| 2020-04-02    | Missing      | N/A                 | 0.000366            |
+| 2020-12-16    | Missing      | N/A                 | 0.000366            |
   
 
 ## Chi-Square Goodness of Fit Test:
 *Question*: Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
 To answer this question, I ran a Chi-Square Goodness of Fit Test. Using the most recent observed positive cases from California and multiplying the percentages of positive cases for each age group in the United States and the total positive cases in California, I created the following table:
-<p align=“center”>
-  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/observed_vs_expected.png">
-</p>
+
+| Age Group    | Observed Cases in California | Expected Cases in California |
+| ------------ |------------------------------| -----------------------------|
+| 0-17         | 208045                       | 181748                       |
+| 18-49        | 1043558                      | 960402                       |
+| 50-64        | 331246                       | 359721                       |
+| 65 and Older | 180273                       | 252994                       |
+| Missing      | 1252                         | 9528                         |
 
 _Result_: After running the Chi-Square Goodness of Fit Test, I found that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
 
