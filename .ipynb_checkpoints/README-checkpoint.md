@@ -3,7 +3,7 @@
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/people_wearing_masks.jpg">
 </p>
 
-### Insight into which age group tests positive more often for Covid-19 in California. Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
+### Insight into which age group tests positive more often for Covid-19 in California.
 
 ## Belinda Nguyen
 [Linkedin](https://www.linkedin.com/in/bnguyen05/) * [Github](https://github.com/nguyenbel) * [Slides](https://github.com/nguyenbel/)
@@ -23,6 +23,7 @@ I grouped the total Covid-19 Cases in California by dates since they were separa
 Next, I worked with the data on the population of Callifornia based on age groups and sex. I renamed the columns to make it more readable, then I went through the columns: Total Estimate, Male Estimate, and Female Estimate in the DataFrame to change the column type from *string* to *int64*. Afterwards, I merged the rows to match the age groups found in the California Covid-19 Cases - Age Demographic dataset. After merging the rows by summing them, I found that the population dataset I found went from ages 0-19, 20-49, 50-64, 64 and Older, whereas the Covid-19 - Age Demographic dataset went from 0-17, 18-49, 50-64, 65 and Older, and Missing. This lead me to find data for the population of those under the age of 17 years old in California. I added this information by subtracting the data found by the sum of people from 0-19 year old age group, then added the difference to the 20-49 year old age group. From here, I created two new columns: one showed a proportion of cases in each group over the population of that age group in California and the new daily confirmed cases for each age group.
 
 ## Exploratory Data Analysis:
+The timeseries line graph shows the daily new confirmed cases for each age group. Aside from the missing age group, each age group has similar trends as to where there are spikes and dips in the graph. The missing age group dips into the negatives on certain days, possible due to the fact that for some of these cases, the age group they belonged to was found; however, after some careful analysis, it was hard to determine where the missing data went to since the case numbers of each age group were around the same amount as they were prior, so I assumed it was distributed equally between the four other age groups.
 <p align=“center”>
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/DailyNewConfirmedCasesinCalifornia.png">
 </p>
