@@ -27,21 +27,10 @@ The timeseries line graph shows the daily new confirmed cases for each age group
 The dashed gray vertical lines in the graph represents important dates in California (e.g. mandates enacted, public spaces opening/closing, etc.) and the dark red dotted vertical lines represent 2 weeks afterwards.
 <p align=“center”>
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/DailyNewConfirmedCasesinCalifornia.png">
+
+  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/CA_important_dates.png">
 </p>
 
-#### Important Dates:
-- March 19th - statewide SIP (2 weeks later - April 2)
-- May 13 - LA beaches reopen (2 weeks later - May 27)
-- May 18 - Newsom changes reopening parameters (more eased) (2 weeks later - June 1)
-- June 12 - indoor businesses like restaurants, retail stores, bars, gyms, and religious services reopen (2 weeks later - June 26)
-- July 13 - bars and indoor dining closed again (some counties close gyms, churches, hair salons, etc) (2 weeks later - July 27)
-- September 22 - nail salons and salons reopen (2 weeks later - October 6)
-- October 23 - State allows nursing home visitors (2 weeks later - November 6)
-- October 28 - San Mateo gyms increase capacity from 10% to 25% (2 weeks later - November 11)
-- November 16 - Nonessential businnesses close and Californians must wear a mask whenever outside their house (2 weeks later - November 30)
-- November 21 - Statewide curfew implemented until December 21 (2 weeks later - December 5)
-- November 27 - LA County imposes new stay-at-home order (2 weeks later - December 11)
-- December 6 - Bay Area (as well as most counties in California) impose new stay-at-home order (2 weeks later - December 20)
 
 ## Chi-Square Goodness of Fit Test:
 *Question*: Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
