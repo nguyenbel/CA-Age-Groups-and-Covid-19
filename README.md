@@ -32,6 +32,7 @@ The dashed gray vertical lines in the graph represents important dates in Califo
 </p>
 
 
+
 ## Chi-Square Goodness of Fit Test:
 *Question*: Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
 
