@@ -35,7 +35,7 @@ The dashed gray vertical lines in the graph represents important dates in Califo
 As shown in the table below, cases for each age group rose significantly from when the data was recorded for each age group on April 2, 2020 to the current date, December 17th, 2020. The number of daily new confirmed positive cases rose for each age group rose significantly, with notable mentions to the 18-49 age group having approximately 30 times the amount of cases it had back in April. Of course, due to better testing efforts implemented within the state, the numbers that we have seen after the end of May might be more accurate compared to the numbers given at the beginning of the pandemic since these may be lower than they actually are. 
 
 | Date          | Age Group    | Total Positive Cases| New Confirmed Cases |
-| ------------- |:------------:| :------------------:| -------------------:|
+| ------------- |--------------| :------------------:| :------------------:|
 | 2020-04-02    | 0-17         | 120                 | 17                  |
 | 2020-04-02    | 18-49        | 5302                | 748                 |
 | 2020-04-02    | 50-64        | 2879                | 406                 |
@@ -43,7 +43,7 @@ As shown in the table below, cases for each age group rose significantly from wh
 | 2020-04-02    | Missing      | 58                  | 8                   |
 
 | Date          | Age Group    | Total Positive Cases| New Confirmed Cases |
-| ------------- |:------------:| :------------------:| -------------------:|
+| ------------- |--------------| :------------------:| :------------------:|
 | 2020-12-16    | 0-17         | 208045              | 5221                |
 | 2020-12-16    | 18-49        | 1043558             | 23502               |
 | 2020-12-16    | 50-64        | 331246              | 8031                |
@@ -51,11 +51,11 @@ As shown in the table below, cases for each age group rose significantly from wh
 | 2020-12-16    | Missing      | 1252                | 15                  |
 
 
-### Proportions of Positive Cases with respect to Age Group Population and New Cases for each Age Group with respect to 
+### Proportions of Positive Cases with respect to Age Group Population and New Cases for each Age Group with respect to Total New Cases in California
 Although the numbers may be skewed, one fact still remained true: Californians from the ages of 18-49 years old had the most daily new cases of Covid-19 out of all of the age groups. This can be attributed to one main factor: this age group is, by far, the largest age group (spanning 31 years of different ages). Howeveer, when looking at the age group proportion (number of positive cases in the age group over the age group population), approximately 6% of people from 18-49 years old still tested positive for Covid-19. The proportions are shown below.
 
-| Date          | Age Group    | (Positive Cases) / (Age Group Population) | (New Cases by Age) / (Total New Cases) |
-| ------------- |:------------:| :------------------:| -------------------:|
+| Date          | Age Group    | (Positive Cases) / <br /> (Age Group Population) | (New Cases by Age) / <br /> (Total New Cases) |
+| ------------- |--------------| :------------------:| :-------------------:|
 | 2020-04-02    | 0-17         | 0.00001             | 0.011258            |
 | 2020-04-02    | 18-49        | 0.00030             | **0.495364**        |
 | 2020-04-02    | 50-64        | **0.00040**         | 0.268874            |
@@ -63,8 +63,8 @@ Although the numbers may be skewed, one fact still remained true: Californians f
 | 2020-04-02    | Missing      | N/A.                | 0.005298            |
 
 
-| Date          | Age Group    | (Positive Cases) / (Age Group Population) | (New Cases by Age) / (Total New Cases) |
-| ------------- |:------------:| :------------------:| -------------------:|
+| Date          | Age Group    | (Positive Cases) / <br /> (Age Group Population) | (New Cases by Age) / <br /> (Total New Cases) |
+| ------------- |--------------| :------------------:| :-------------------:|
 | 2020-12-16    | 0-17         | 0.02305             | 0.127304            |
 | 2020-12-16    | 18-49        | **0.05999**         | **0.573052**        |
 | 2020-12-16    | 50-64        | 0.04566             | 0.195821            |
@@ -83,9 +83,13 @@ To answer this question, I ran a Chi-Square Goodness of Fit Test. Using the most
 _Result_: After running the Chi-Square Goodness of Fit Test, I found that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
 
 ## Conclusions
-
+<p align=“center”>
+  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/slow_spread.jpeg">
+</p>
+Although efforts to mitigate the spread of Covid-19 have had some affect on slowing down the spread of Covid-19 have been somewhat successful (e.g. stay-at-home orders, slowly reopening the public and closing it down when things got worse), there still needs to be some effort in enforcing the stay-at-home orders and something in affect to help those who were impacted by Covid-19 finanically (e.g. laid off, hours cut, etc.), especially people of the ages 18-49. Additionally, there was no indication that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
 
 ## Future Analysis
+- Figuring out where the missing age group data went (is it equally distributed?)
 
 ## References
 California Department of Public Health. 2020. California Total Covid-19 Cases. Retrieved from <https://data.ca.gov/dataset/covid-19-cases/resource/926fd08f-cc91-4828-af38-bd45de97f8c3>
