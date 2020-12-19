@@ -15,9 +15,17 @@ This study analyzes the positive cases of Covid-19 in California between age gro
 
 ## Data
 ### Description: 
-Californiia Department of Public Health compiled a [data set](https://data.ca.gov/dataset/covid-19-cases) of Covid-19 cases in California and broke down the data into several categories: total cases, age demographic, sex demographics, and ethnicity demographics. I took the data for the total cases and the age demographic, then found data on the population of Californiia based on the age groups, and, finally, demographic trends of Covid-19 in the United States from the Centers for Disease Control and Prevention.
+Californiia Department of Public Health compiled a [data set](https://data.ca.gov/dataset/covid-19-cases) of Covid-19 cases in California and broke down the data into several categories: total cases, age demographic, sex demographics, and ethnicity demographics. I took the data for the total cases and the age demographic, then found data on the population of California based on the age groups and sex, and, finally, demographic trends of Covid-19 in the United States from the Centers for Disease Control and Prevention.
+
+### Refinement: 
+I grouped the total Covid-19 Cases in California by dates since they were separated by counties and summed the total positive and new cases columns. Next, I grouped the total Covid-19 Cases - Age Demographics in California by dates and age group and summed the total positive cases columns. In this DataFrame, I found that some of the age groups were recoded (65 and older changed to 65+ and Unknown changed to Missing), so I recoded those rows to ensure they had the same names. I merged the two DataFrames together based on the dates. I created a new column which showed proportion of cases in each the age group over the total number of cases in California.
+
+Next, I worked with the data on the population of Callifornia based on age groups and sex. I renamed the columns to make it more readable, then I went through the columns: Total Estimate, Male Estimate, and Female Estimate in the DataFrame to change the column type from *string* to *int64*. Afterwards, I merged the rows to match the age groups found in the California Covid-19 Cases - Age Demographic dataset. After merging the rows by summing them, I found that the population dataset I found went from ages 0-19, 20-49, 50-64, 64 and Older, whereas the Covid-19 - Age Demographic dataset went from 0-17, 18-49, 50-64, 65 and Older, and Missing. This lead me to find data for the population of those under the age of 17 years old in California. I added this information by subtracting the data found by the sum of people from 0-19 year old age group, then added the difference to the 20-49 year old age group. From here, I created two new columns: one showed a proportion of cases in each group over the population of that age group in California and the new daily confirmed cases for each age group.
 
 ## Exploratory Data Analysis:
+<p align=“center”>
+  <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/DailyNewConfirmedCasesinCalifornia.png">
+</p>
 
 ## Chi-Square Goodness of Fit Test:
 *Question*: Is the positive cases for each age group in California a sample of the positive cases for each age group in the United States?
@@ -26,7 +34,7 @@ To answer this question, I ran a Chi-Square Goodness of Fit Test. Using the most
 <p align=“center”>
   <img src="https://github.com/nguyenbel/CA-Age-Groups-and-Covid-19/blob/master/img/observed_vs_expected.png">
 </p>
-After running the Chi-Square Goodness of Fit Test, I found that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
+Result: After running the Chi-Square Goodness of Fit Test, I found that the positive cases for each group in California is not a sample of the positive cases for each age group in the United States.
 
 ## Conclusions
 
